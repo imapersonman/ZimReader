@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920A53481DD1500700615F59 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 920A53461DD1500700615F59 /* main.c */; };
 		9227B6B71DD1314900565EF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9227B6B61DD1314900565EF5 /* AppDelegate.m */; };
 		9227B6BA1DD1314900565EF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9227B6B91DD1314900565EF5 /* main.m */; };
 		9227B6BC1DD1314900565EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9227B6BB1DD1314900565EF5 /* Assets.xcassets */; };
 		9227B6BF1DD1314900565EF5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9227B6BD1DD1314900565EF5 /* MainMenu.xib */; };
+		92AED82F1DD2C304007CE8D5 /* HeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AED82D1DD2C2CC007CE8D5 /* HeaderViewController.m */; };
+		92AED8401DD2D2BA007CE8D5 /* MimeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AED83F1DD2D2BA007CE8D5 /* MimeListViewController.m */; };
+		92C00B561DD3BA33001752C4 /* EntriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C00B551DD3BA33001752C4 /* EntriesViewController.m */; };
+		92EE0E6A1DDC101900A35C07 /* ArticleWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EE0E681DDC101900A35C07 /* ArticleWindowController.m */; };
+		92EE0E6B1DDC101900A35C07 /* ArticleWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92EE0E691DDC101900A35C07 /* ArticleWindowController.xib */; };
+		92EE0E6E1DDC1BCB00A35C07 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EE0E6D1DDC1BCB00A35C07 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		920A53461DD1500700615F59 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../ZIM/main.c; sourceTree = "<group>"; };
+		920A53471DD1500700615F59 /* zim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zim.h; path = ../../ZIM/zim.h; sourceTree = "<group>"; };
 		9227B6B21DD1314900565EF5 /* ZimReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZimReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9227B6B51DD1314900565EF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9227B6B61DD1314900565EF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -21,6 +30,17 @@
 		9227B6BB1DD1314900565EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9227B6BE1DD1314900565EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		9227B6C01DD1314900565EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92AED82C1DD2C2CC007CE8D5 /* HeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderViewController.h; sourceTree = "<group>"; };
+		92AED82D1DD2C2CC007CE8D5 /* HeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderViewController.m; sourceTree = "<group>"; };
+		92AED83E1DD2D2BA007CE8D5 /* MimeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MimeListViewController.h; sourceTree = "<group>"; };
+		92AED83F1DD2D2BA007CE8D5 /* MimeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MimeListViewController.m; sourceTree = "<group>"; };
+		92C00B541DD3BA33001752C4 /* EntriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntriesViewController.h; sourceTree = "<group>"; };
+		92C00B551DD3BA33001752C4 /* EntriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntriesViewController.m; sourceTree = "<group>"; };
+		92C00B571DD3C282001752C4 /* ZIMHandleDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIMHandleDelegate.h; sourceTree = "<group>"; };
+		92EE0E671DDC101900A35C07 /* ArticleWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleWindowController.h; sourceTree = "<group>"; };
+		92EE0E681DDC101900A35C07 /* ArticleWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleWindowController.m; sourceTree = "<group>"; };
+		92EE0E691DDC101900A35C07 /* ArticleWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleWindowController.xib; sourceTree = "<group>"; };
+		92EE0E6D1DDC1BCB00A35C07 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +48,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EE0E6E1DDC1BCB00A35C07 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		920A53451DD14FF700615F59 /* Zim */ = {
+			isa = PBXGroup;
+			children = (
+				920A53461DD1500700615F59 /* main.c */,
+				920A53471DD1500700615F59 /* zim.h */,
+			);
+			name = Zim;
+			sourceTree = "<group>";
+		};
 		9227B6A91DD1314900565EF5 = {
 			isa = PBXGroup;
 			children = (
 				9227B6B41DD1314900565EF5 /* ZimReader */,
 				9227B6B31DD1314900565EF5 /* Products */,
+				92EE0E6C1DDC1BCA00A35C07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,12 +84,23 @@
 		9227B6B41DD1314900565EF5 /* ZimReader */ = {
 			isa = PBXGroup;
 			children = (
+				920A53451DD14FF700615F59 /* Zim */,
 				9227B6B51DD1314900565EF5 /* AppDelegate.h */,
 				9227B6B61DD1314900565EF5 /* AppDelegate.m */,
 				9227B6BB1DD1314900565EF5 /* Assets.xcassets */,
 				9227B6BD1DD1314900565EF5 /* MainMenu.xib */,
 				9227B6C01DD1314900565EF5 /* Info.plist */,
 				9227B6B81DD1314900565EF5 /* Supporting Files */,
+				92AED82C1DD2C2CC007CE8D5 /* HeaderViewController.h */,
+				92AED82D1DD2C2CC007CE8D5 /* HeaderViewController.m */,
+				92AED83E1DD2D2BA007CE8D5 /* MimeListViewController.h */,
+				92AED83F1DD2D2BA007CE8D5 /* MimeListViewController.m */,
+				92C00B541DD3BA33001752C4 /* EntriesViewController.h */,
+				92C00B551DD3BA33001752C4 /* EntriesViewController.m */,
+				92C00B571DD3C282001752C4 /* ZIMHandleDelegate.h */,
+				92EE0E671DDC101900A35C07 /* ArticleWindowController.h */,
+				92EE0E681DDC101900A35C07 /* ArticleWindowController.m */,
+				92EE0E691DDC101900A35C07 /* ArticleWindowController.xib */,
 			);
 			path = ZimReader;
 			sourceTree = "<group>";
@@ -69,6 +111,14 @@
 				9227B6B91DD1314900565EF5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92EE0E6C1DDC1BCA00A35C07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92EE0E6D1DDC1BCB00A35C07 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EE0E6B1DDC101900A35C07 /* ArticleWindowController.xib in Resources */,
 				9227B6BC1DD1314900565EF5 /* Assets.xcassets in Resources */,
 				9227B6BF1DD1314900565EF5 /* MainMenu.xib in Resources */,
 			);
@@ -142,7 +193,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9227B6BA1DD1314900565EF5 /* main.m in Sources */,
+				92AED82F1DD2C304007CE8D5 /* HeaderViewController.m in Sources */,
 				9227B6B71DD1314900565EF5 /* AppDelegate.m in Sources */,
+				92C00B561DD3BA33001752C4 /* EntriesViewController.m in Sources */,
+				92EE0E6A1DDC101900A35C07 /* ArticleWindowController.m in Sources */,
+				92AED8401DD2D2BA007CE8D5 /* MimeListViewController.m in Sources */,
+				920A53481DD1500700615F59 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,9 +307,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ZimReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-I/usr/local/include",
+					"-L/usr/local/lib",
+					"-llzma",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.centuryapps.ZimReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -263,9 +327,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ZimReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-I/usr/local/include",
+					"-L/usr/local/lib",
+					"-llzma",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.centuryapps.ZimReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -290,6 +362,7 @@
 				9227B6C51DD1314900565EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
