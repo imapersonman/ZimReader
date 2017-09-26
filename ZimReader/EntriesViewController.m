@@ -60,15 +60,16 @@ static NSString *emptyKeys[] = { @"", @"", @"", @"", @"", @"", @"", @"", @"" };
         NSLog(@"No Entry Currently Selected");
     }
     
+    /*
     FILE *fptr = [self.handleDelegate getFilePointer];
     ZIMHandle *handle = [self.handleDelegate getZimHandle];
     ZIMCluster *cluster = (ZIMCluster *)malloc(sizeof(ZIMCluster));
     ZIM_DecompressClusterAtIndex(fptr, handle, cluster, 0);
     char *utf8Html = ZIM_GetBlobAtIndex(cluster, 0);
-    
+    */  
     self.articleWindowController = [[ArticleWindowController alloc] init];
     [self.articleWindowController showWindow:self];
-    [self.articleWindowController loadHTML:[NSString stringWithUTF8String:utf8Html]];
+    //[self.articleWindowController loadHTML:[NSString stringWithUTF8String:utf8Html]];
 }
 
 - (IBAction)sentSearchResults:(id)sender {
