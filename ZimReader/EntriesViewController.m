@@ -33,8 +33,8 @@ static NSString *emptyKeys[] = { @"", @"", @"", @"", @"", @"", @"", @"", @"" };
     [self.entryTableView setDelegate:self];
     [self.entryTableView setDataSource:self];
     [self.searchField setDelegate:self];
-    [self.searchField setSendsSearchStringImmediately:NO];
-    [self.searchField setSendsWholeSearchString:YES];
+    [self.searchField setSendsSearchStringImmediately:YES];
+    [self.searchField setSendsWholeSearchString:NO];
     [self.tableView setDoubleAction:@selector(doubleClickedCell:)];
 }
 
@@ -60,10 +60,11 @@ static NSString *emptyKeys[] = { @"", @"", @"", @"", @"", @"", @"", @"", @"" };
         NSLog(@"No Entry Currently Selected");
     }
     
-    /*
     FILE *fptr = [self.handleDelegate getFilePointer];
     ZIMHandle *handle = [self.handleDelegate getZimHandle];
     ZIMCluster *cluster = (ZIMCluster *)malloc(sizeof(ZIMCluster));
+    
+    /*
     ZIM_DecompressClusterAtIndex(fptr, handle, cluster, 0);
     char *utf8Html = ZIM_GetBlobAtIndex(cluster, 0);
     */  
